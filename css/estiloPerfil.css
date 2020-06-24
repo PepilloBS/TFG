@@ -1,0 +1,75 @@
+body{
+    background: url();
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000
+}
+
+li {
+  float: left;
+  border-right: 1px solid #000000;
+}
+
+li:last-child{
+    float: right;
+  }
+
+li:nth-last-child(2) {
+    float: right;
+  }
+
+li a {
+  display: block;
+  padding: 15px;
+  background-color: #FA8072;
+  color: #FFFFFF;
+}
+
+.jumbotron{
+    width: 100%;
+    background-color: #F08080;
+    color: black;
+}
+
+#cuerpo-panel {
+  color:black;
+  text-align: left;
+  width: 40%;
+}
+
+#panel-logo{
+  float: top right;
+  width:400px;
+  height:300px;
+}
+
+#titulo-formulario{
+    margin-left: 600px;
+}
+
+
+
+table {
+    width: 25%;
+    border: 1px solid #000;
+    align-self: center;
+    margin-left: 500px;
+    margin-top: 100px;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+ }
+
+ 

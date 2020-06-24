@@ -1,0 +1,43 @@
+body{
+  background: url();
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #000000
+}
+
+li {
+float: left;
+border-right: 1px solid #000000;
+}
+
+li:nth-last-child(-n+1){
+  float: right;
+}
+
+
+li a {
+display: block;
+padding: 15px;
+background-color: #FA8072;
+color: #FFFFFF;
+}
+
+.jumbotron{
+  width: 100%;
+  background-color: #F08080;
+  color: black;
+}
+
+.img {
+  position: absolute;
+  right: 10px;
+}

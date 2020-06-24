@@ -1,0 +1,47 @@
+body{
+    background: url();
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  }
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0066cc;
+  }
+  
+  li {
+  float: left;
+  border-right: 1px solid white;
+  }
+  
+  li:nth-last-child(-n+2){
+    float: right;
+  }
+  
+  
+  li a {
+  display: block;
+  padding: 15px;
+  background-color: #0066cc;
+  color: #FFFFFF;
+  }
+  
+  .jumbotron{
+    width: 100%;
+    background-color: #000099;
+    color: white;
+  }
+  
+  .img {
+    position: absolute;
+    right: 10px;
+  }
+
+  #Grafico{
+      margin:auto;
+  }
